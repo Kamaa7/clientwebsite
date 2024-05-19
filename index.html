@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEING LOCKS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-xxx" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="being-locks-high-resolution-logo-black" sizes="180x180" href="/being-locks-high-resolution-logo-black.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+<link rel="manifest" href="/site.webmanifest">
+    <noscript>
+        <!-- Add a link to a noscript version of your stylesheet here if needed -->
+    </noscript>
+    <style>
+        /* Search and MH Button Styles */
+        .search-button,
+        .mh-button {
+            position: fixed;
+            top: 3px;
+            z-index: 999;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        .search-button i,
+        .mh-button img {
+            font-size: 20px;
+            color: #fff;
+            width: 50px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .search-button {
+            right: 40px;
+        }
+
+        .mh-button {
+            left: 15px;
+        }
+
+        /* Search Bar Styles */
+        .search-bar {
+            display: none;
+            position: fixed;
+            top: 55px;
+            right: 15px;
+            z-index: 1000;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 5px;
+            border-radius: 5px;
+            width: 150px;
+        }
+
+        .search-input {
+            width: calc(100% - 10px); /* Adjust the width as needed */
+            padding: 5px;
+            font-size: 14px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            color: #fff;
+        }
+
+        .search-close {
+            font-size: 16px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        body.search-bar-active {
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body class="is-preload">
+    <!-- Sidebar and MH Logo content... -->
+
+    <!-- Search Button -->
+    <div class="search-button" onclick="toggleSearch()">
+        <i class="fas fa-search"></i>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-bar" id="searchBar">
+        <input type="text" class="search-input" placeholder="Search...">
+        <i class="fas fa-times search-close" onclick="toggleSearch()"></i>
+    </div>
+
+    <!-- Existing content... -->
+
+    <script>
+        function toggleSearch() {
+            var searchBar = document.getElementById("searchBar");
+            document.body.classList.toggle("search-bar-active");
+
+            // If the search bar is currently hidden, focus on the input field
+            if (document.body.classList.contains("search-bar-active")) {
+                document.querySelector(".search-input").focus();
+            }
+
+            // Toggle the visibility of the search bar
+            searchBar.style.display = (searchBar.style.display === "none" || searchBar.style.display === "") ? "block" : "none";
+        }
+    </script>
+</body>
+
+</html>
+
+
+<body class="is-preload">
+
+    <!-- Sidebar -->
+    <section id="sidebar">
+        <div class="inner">
+            <nav>
+                <ul>
+                    <li><a href="#intro">Welcome</a></li>
+                    <li><a href="#one">Who we are</a></li>
+                    <li><a href="#two">What we do</a></li>
+                    <li><a href="#three">Get in touch</a></li>
+                </ul>
+            </nav>
+            
+            <style>
+                .container {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  height: 100vh; /* Adjust this value based on your layout */
+                  margin: 0;
+                }
+              
+                .mh-button {
+                  border-radius: 50%;
+                  transform: translateX(-10px); /* Adjust this value as needed */
+                }
+              </style>
+              
+              <!-- MH Logo -->
+              <div class="container">
+                <div class="mh-button">
+                  <img src="being-locks-high-resolution-logo-black.png" alt="MH Logo" width="150px" height="auto">
+                </div>
+              </div>
+              
+              
+              
+              
+    </div>
+  </div>
+  
+              
+                </div>
+              
+              
+              
+
+</div>
+
+            <!-- Search Button -->
+            <div class="search-button" onclick="toggleSearch()">
+                <i class="fas fa-search"></i>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="search-bar" id="searchBar">
+                <input type="text" class="search-input" placeholder="Search...">
+                <i class="fas fa-times search-close" onclick="toggleSearch()"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner"> 
+							<h1><i class=
+							<h1>BEING LOCKS</h1>
+
+							<p>
+								Introducing Being Locks, a premier manufacturer specializing in a diverse range of locking solutions to meet various security needs. From Panel Locks and Panel Keys to Pad Locks, Rack Locks, Maruti Locks, and an array of other lock types, we offer a comprehensive selection crafted with precision and reliability in mind.
+								<a </a><br />
+							</p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image">
+										<img src="IMG-20240331-WA0005.jpg" alt="" data-position="center center" />
+									  </a>																										  <div class="content">
+								<div class="inner">
+									<h2>Panel Locks: Your Key to Security</h2>
+									<p>Choose Being Locks for Panel Locks that combine unparalleled security, durability, and ease of use, ensuring the protection of your valuable assets and equipment. Experience the difference with our premium locking solutions tailored to meet your specific needs and requirements</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image">
+								<img src="IMG-20240331-WA0003.jpg" alt="" data-position="center center" />
+							  </a>
+						  <div class="content">
+								<div class="inner">
+									<h2>Discover Superior Pad Lock Security</h2>
+									<p>Trust in our Pad Locks to deliver unmatched quality and performance, backed by rigorous testing and adherence to industry standards. Enhance your security measures and safeguard your assets with our premium Pad Locks, ensuring peace of mind wherever you go.</p>
+									<ul class="actions">
+										
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="PHOTO-2024-05-19-15-40-31.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Elevate Security with Our Rack Locks</h2>
+									<p>Ease of use is paramount with our Rack Locks, ensuring hassle-free installation and operation. Whether you're securing pallet racking, shelving units, or storage cabinets, our locks offer convenient and reliable security solutions for your storage needs.</p>
+									<ul class="actions">
+										
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>What we do</h2>
+							<p>We specialize in designing and manufacturing high-quality locks, ranging from padlocks to rack locks. Our innovative solutions ensure top-notch security for residential, commercial, and industrial applications. With a focus on durability and reliability, we provide peace of mind to our customers, safeguarding their valuable assets. Trust us to deliver cutting-edge locking solutions tailored to meet your specific needs.</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-lock"></span>
+									<h3><h2>Lucrative Locks</h2>
+									</h3>
+									<p>Crafted with precision and passion, our artisanal locks are a testament to the finest quality in handicrafts. Each piece exudes reliability, blending traditional craftsmanship with modern technology to safeguard your valuables with timeless allure.
+										</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-magic"></span>
+									<h3>Enchanting Creation</h3>
+									<p>Embark on a journey of enchantment with our exquisite Locks. Our creations are like spells of craftsmanship, weaving protection into every piece. Discover a world where artistry meets quality, and let our locks add a touch of safety to your surrounding.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-industry"></span>
+									<h3>Reflecting Elegance: Our Captivating Factorymade Locks
+									</h3>
+									<p>Indulge in the craftsmanship of our handcrafted locks, where each piece is a testament to precision and security. From intricate designs to top-quality construction, our locks elevate the safety and sophistication of any setting, leaving a lasting impression for generations to come.
+</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-lightbulb"></span>
+									<h3>Radiant Illumination Collection
+									</h3>
+									<p>Elevate your space with our exquisite locks and keys. Imbued with artistic flair and superior craftsmanship, our lighting creations illuminate not just rooms, but lifestyles. Explore a world where every corner gleams with the safety  of our carefully curated Locks.
+
+									</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-key"></span>
+									<h3>Exquisite keyholes Ensemble
+									</h3>
+									<p>
+										Immerse your home in the timeless elegance of our meticulously crafted keys, where each one embodies a tale of precision and security.</p>
+								</section>
+								<section>
+									<span class="icon major fa-gem"></span>
+									<h3>Discover the Extraordinary
+									</h3>
+									Unlock security with Being Locks – your ultimate destination for premium locking solutions that combine reliability and sophistication. From traditional designs to cutting-edge technology, our locks provide peace of mind while adding a touch of style to your surroundings.</p>
+								</section>
+							</div>
+							<ul class="actions">
+								
+							</ul>
+						</div>
+					</section>
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Get in touch</h2>
+							<p>Engage in the assurance of secure living! Contact Being Locks to elevate your spaces with the finesse of our bespoke locking solutions, where innovation and reliability intertwine seamlessly.
+								</p>
+							<div class="split style1">
+								<section>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><a href="" class="button submit">Send Message</a></li>
+										</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Address</h3>
+											<span> Silko Tailor Street<br />
+											Sarai Rahman Aligarh, UP 202001<br />
+											India</span>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<a href="mailto:being.lock.2712@gmail.com">being.lock.2712@gmail.com</a>
+
+										</li>
+										<li>
+											<h3>Phone</h3>
+											<span>(+91-8449442881)</span>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="https://www.instagram.com/beingslock?igsh=MXVzYnA1bDR0aW9rMg==" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="https://www.facebook.com/beings.lock?mibextid=ZbWKwL" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="https://www.linkedin.com/in/sayed-kamaal-asghar-75a794217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">𝙆𝙖𝙢𝙖𝙖𝙡 𝘼𝙨𝙜𝙝𝙖𝙧						</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+
